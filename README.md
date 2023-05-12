@@ -1,16 +1,18 @@
-### Hi there 👋
+# Null-text Guidance in Diffusion Models is Secretly a Cartoon-style Creator
+--------
 
-<!--
-**NullTextforCartoon/NullTextforCartoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# Requirements
+A suitable conda environment named ldm can be created and activated with:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+conda env create -f environment.yaml
+conda activate ldm
+```
+
+You can also update an existing latent diffusion environment by running:
+```
+conda install pytorch torchvision -c pytorch
+pip install transformers==4.19.2 diffusers invisible-watermark
+pip install -e .
+```
