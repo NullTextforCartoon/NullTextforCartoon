@@ -1,5 +1,6 @@
 # Null-text Guidance in Diffusion Models is Secretly a Cartoon-style Creator
 --------
+<<<<<<< HEAD
 ![](githubshow/figure1.png)
 
 
@@ -12,6 +13,13 @@ c![](githubshow/method.png)
 # Requirements
 A suitable conda environment named ldm can be created and activated with:
 
+=======
+
+
+# Requirements
+A suitable conda environment named ldm can be created and activated with:
+
+>>>>>>> 9b413cce068f381a522818eaf804c555c788a8e3
 ```
 conda env create -f environment.yaml
 conda activate ldm
@@ -23,6 +31,7 @@ conda install pytorch torchvision -c pytorch
 pip install transformers==4.19.2 diffusers invisible-watermark
 pip install -e .
 ```
+<<<<<<< HEAD
 
 To get started, install the additionally required python packages into your ldm environment.
 ```
@@ -35,3 +44,5 @@ run:
 ```
 python cartoonization.py --ckpt 'sd-v1-4-full-ema.ckpt' --n_samples 8 --mode 1 --prompt "a photo of bird" --image_path "bird03.png"
 ```
+=======
+>>>>>>> 9b413cce068f381a522818eaf804c555c788a8e3
