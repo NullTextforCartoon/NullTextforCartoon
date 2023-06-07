@@ -206,7 +206,7 @@ def main():
     parser.add_argument(
         "--ckpt",
         type=str,
-        default="/public/data0/MULT/users/zhengheliang/code/stable_diffusion/Dreambooth_zj_cartoon/sd-v1-4-full-ema.ckpt",
+        default="sd-v1-4-full-ema.ckpt",
         # default="sd-v1-4-full-ema.ckpt",
         # default="sd-v1-4-full-ema.ckpt",
         help="path to checkpoint of model",
