@@ -33,7 +33,7 @@ pip install safetensors==0.3.0 omegaconf==2.1.1 tqdm==4.64.0 einops==0.6.0 pytor
 ```
 
 # Try cartoonization
-You can grab the stable diffusion model ```sd-v1-4-full-ema.ckpt``` from \url{https://huggingface.co/CompVis/stable-diffusion-v-1-4-original} and make sure to put it in the root path. 
+You can grab the stable diffusion model ```sd-v1-4-full-ema.ckpt``` from \href{here}{https://huggingface.co/CompVis/stable-diffusion-v-1-4-original} and make sure to put it in the root path. 
 run:
 ```
 python cartoonization.py --ckpt 'sd-v1-4-full-ema.ckpt' --n_samples 8 --mode 1 --prompt "a photo of bird" --image_path "bird03.png"
