@@ -38,3 +38,11 @@ run:
 ```
 python cartoonization.py --ckpt 'sd-v1-4-full-ema.ckpt' --n_samples 8 --mode 1 --prompt "a photo of bird" --image_path "bird03.png"
 ```
+
+where:
+```
+mode = 0 : Stable diffusion (baseline)
+mode = 1 : Free generation with Rollback disturbance
+mode = 2 : Image Cartoonization with Rollback disturbance
+mode = 3 : Image Cartoonization with Image disturbance
+```
