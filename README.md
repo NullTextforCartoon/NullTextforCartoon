@@ -1,4 +1,5 @@
-# Null-text Guidance in Diffusion Models is Secretly a Cartoon-style Creator
+# Null-text Guidance in Diffusion Models is Secretly a Cartoon-style Creator 
+[Paper](https://nulltextforcartoon.github.io/static/github.pdf)  [Code](https://github.com/NullTextforCartoon/NullTextforCartoon/tree/main)
 --------
 ![](githubshow/figure1.png)
 
