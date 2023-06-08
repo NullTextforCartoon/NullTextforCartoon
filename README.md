@@ -26,6 +26,7 @@ pip install transformers==4.19.2 diffusers invisible-watermark
 pip install -e .
 ```
 
+
 To get started, install the additionally required python packages into your ldm environment.
 ```
 pip install safetensors==0.3.0 omegaconf==2.1.1 tqdm==4.64.0 einops==0.6.0 pytorch_lightning==1.6.0 scikit-learn==0.24.2 matplotlib==3.4.2 
